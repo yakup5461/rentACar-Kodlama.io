@@ -4,10 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data		
-@AllArgsConstructor		//parametreli constructorsun
-@NoArgsConstructor		//parametresiz constructorsun
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class GetAllBrandsResponse {
- private int Id;
- private String name ;
+	
+	private int id;
+	private String name;
+
 }
